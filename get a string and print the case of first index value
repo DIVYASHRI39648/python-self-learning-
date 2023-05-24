@@ -1,0 +1,9 @@
+str1 = input("enter a string:")
+if str1[0].isalpha():
+ if str1[0].isupper():
+    print("uppercase")
+ else:
+    print("lowercase")
+else:
+    print("number")
+
